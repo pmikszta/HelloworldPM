@@ -1,7 +1,8 @@
-//super simple simple java Hello world script 
-public class HelloWorld {
+package org.example;
+
+public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World! Java Edition");
+      Greeter greeter = new Greeter();
+      System.out.println(greeter.getGreeting());
     }
 }
-//dumb commitccc
